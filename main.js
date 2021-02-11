@@ -1,7 +1,7 @@
 clockTime();
 setInterval(clockTime, 1000);
 
-function clockTime() = {
+function clockTime() {
 	let zone = ["America/Los_Angeles","America/New_York"];
 	let clock = ['seattle','boston'];
 	for (var i = 0; i < 2; i++) {
